@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Formulario</title>
 </head>
 
@@ -11,44 +14,50 @@
         <p>
             <label for="Nombre">Nombre:</label>
             <input type="text" name="Nombre" id="Nombre" title='Introduzca su nombre' 
-            autocomplete="given-name" placeholder="Su nombre"/>
+            autocomplete="given-name" placeholder="Su nombre" required/>
         </p>
 
         <p>
             <label for="Primer apellido">Primer apellido:</label>
             <input type="text" name="Primer apellido" id="Primer apellido" title='Introduzca su 
-primer apellido' autocomplete="family-name" placeholder="Su primer apellido"/>
+primer apellido' autocomplete="family-name" placeholder="Su primer apellido" required/>
         </p>
 
         <p>
             <label for="Fecha nacimiento">Fecha nacimiento:</label>
             <input type="date" name="Fecha nacimiento" id="Fecha nacimiento" title='Introduzca su
-fecha de nacimiento' autocomplete="bday"/>
+fecha de nacimiento' autocomplete="bday" required/>
         </p>
 
         <p>
             <label for="Email">Email:</label>
             <input type="text" name="Email" id="Email" title='Introduzca su email' 
-            autocomplete="email" placeholder="example@mail.com"/>
+            autocomplete="email" placeholder="example@mail.com" required/>
         </p>
 
         <p>
             <label for="Teléfono">Teléfono:</label>
             <input type="tel" name="Teléfono" id="Teléfono" title='Introduzca su 
 número de teléfono' 
-            autocomplete="tel" placeholder="123456789"/>
+            autocomplete="tel" placeholder="123456789" required/>
         </p>
 
         <p>
             <label for="Contraseña">Contraseña:</label>
             <input type="password" name="Contraseña" id="Contraseña" title='Introduzca su contraseña' 
-            autocomplete="current-password"/>
+            autocomplete="current-password" placeholder="Su contraseña" required/>
+        </p>
+
+        <p>
+            <label for="Repetir contraseña">Confirmar contraseña:</label>
+            <input type="password" name="Confirmar contraseña" id="Confirmar contraseña" title='Confirme su contraseña' 
+            autocomplete="current-password" placeholder="Su contraseña" required/>
         </p>
 
         <p>
             <label for="Color">Color favorito:</label>
             <input type="color" name="Color" id="Color" title='Introduzca su color favorito' 
-            autocomplete=""/>
+            autocomplete="" required/>
         </p>
 
 
